@@ -1,0 +1,167 @@
+
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+   input[type="date"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .parent-container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: -450px;
+  }
+
+  .centered-div5 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center; /* Optional: Center align content within the div */
+    align-items: center;
+  }
+
+
+    .parent-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: -50px;
+  }
+
+  .centered-div1 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 40%;
+  }
+
+    .parent-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 10%;
+    margin-right: 50%;
+    width: flex;
+    position: relative;
+  }
+
+
+.payment1{
+    display: flex;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 43%;
+    float: right;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    position: absolute;
+}
+
+
+
+.parent-container4 {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 68%;
+  }
+
+
+  .centered-div1 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  }
+@media (max-width: 768px) {
+  /* Modify styles for .payment1 and .parent-container4 as needed for smaller screens */
+  .centered-div3 form {
+
+    margin-top: 2400px;
+    margin-left: -370px;
+    position: relative;
+
+  }
+
+@media (max-width: 768px) {
+  /* Modify styles for .payment1 and .parent-container4 as needed for smaller screens */
+  .payment1 {
+    width: 100%;
+    margin-left: 10%; /* Adjust margin as needed */
+    position: absolute;
+    margin-top: 850px;
+    height: 450px;
+  }
+
+  .parent-container4 {
+    margin-left: 5%; /* Adjust margin as needed */
+     position: absolute;
+    margin-top: 1300px;
+    width: 400px;
+  }
+
+  /* Add more styles as needed */
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+  /* Further adjustments for very small screens if necessary */
+  .payment1 {
+    /* Additional styles for screens with a width less than 480px */
+  }
+
+  .parent-container4 {
+    /* Additional styles for screens with a width less than 480px */
+  }
+
+  /* Add more styles as needed */
+}
